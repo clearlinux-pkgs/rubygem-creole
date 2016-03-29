@@ -4,7 +4,7 @@
 #
 Name     : rubygem-creole
 Version  : 0.5.0
-Release  : 3
+Release  : 4
 URL      : https://rubygems.org/downloads/creole-0.5.0.gem
 Source0  : https://rubygems.org/downloads/creole-0.5.0.gem
 Summary  : No detailed summary available
@@ -56,47 +56,16 @@ pushd %{buildroot}%{gem_dir}/gems/creole-0.5.0 && rake --trace test TESTOPTS="-v
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/creole-0.5.0.gem
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/allowed_schemes-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/cdesc-Parser.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/end_paragraph-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/end_tag-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/escape_html-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/escape_url-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/extensions%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/extensions-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/make_direct_link-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/make_explicit_link-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/make_headline-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/make_image-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/make_image_link-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/make_local_link-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/make_nowikiblock-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/no_escape%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/no_escape-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/parse_block-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/parse_inline-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/parse_inline_tag-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/parse_table_row-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/start_paragraph-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/start_tag-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/to_html-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/toggle_tag-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/Parser/ulol%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/cdesc-Creole.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/Creole/creolize-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/creole-0.5.0/ri/page-README_creole.ri
-/usr/lib64/ruby/gems/2.2.0/gems/creole-0.5.0/.gitignore
-/usr/lib64/ruby/gems/2.2.0/gems/creole-0.5.0/.travis.yml
-/usr/lib64/ruby/gems/2.2.0/gems/creole-0.5.0/CHANGES
-/usr/lib64/ruby/gems/2.2.0/gems/creole-0.5.0/Gemfile
-/usr/lib64/ruby/gems/2.2.0/gems/creole-0.5.0/README.creole
-/usr/lib64/ruby/gems/2.2.0/gems/creole-0.5.0/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/creole-0.5.0/creole.gemspec
-/usr/lib64/ruby/gems/2.2.0/gems/creole-0.5.0/lib/creole.rb
-/usr/lib64/ruby/gems/2.2.0/gems/creole-0.5.0/lib/creole/parser.rb
-/usr/lib64/ruby/gems/2.2.0/gems/creole-0.5.0/lib/creole/version.rb
-/usr/lib64/ruby/gems/2.2.0/gems/creole-0.5.0/test/parser_test.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/creole-0.5.0.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/creole-0.5.0.gem
+/usr/lib64/ruby/gems/2.3.0/gems/creole-0.5.0/.gitignore
+/usr/lib64/ruby/gems/2.3.0/gems/creole-0.5.0/.travis.yml
+/usr/lib64/ruby/gems/2.3.0/gems/creole-0.5.0/CHANGES
+/usr/lib64/ruby/gems/2.3.0/gems/creole-0.5.0/Gemfile
+/usr/lib64/ruby/gems/2.3.0/gems/creole-0.5.0/README.creole
+/usr/lib64/ruby/gems/2.3.0/gems/creole-0.5.0/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/creole-0.5.0/creole.gemspec
+/usr/lib64/ruby/gems/2.3.0/gems/creole-0.5.0/lib/creole.rb
+/usr/lib64/ruby/gems/2.3.0/gems/creole-0.5.0/lib/creole/parser.rb
+/usr/lib64/ruby/gems/2.3.0/gems/creole-0.5.0/lib/creole/version.rb
+/usr/lib64/ruby/gems/2.3.0/gems/creole-0.5.0/test/parser_test.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/creole-0.5.0.gemspec
