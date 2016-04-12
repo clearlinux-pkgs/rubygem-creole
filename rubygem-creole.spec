@@ -4,7 +4,7 @@
 #
 Name     : rubygem-creole
 Version  : 0.5.0
-Release  : 4
+Release  : 5
 URL      : https://rubygems.org/downloads/creole-0.5.0.gem
 Source0  : https://rubygems.org/downloads/creole-0.5.0.gem
 Summary  : No detailed summary available
